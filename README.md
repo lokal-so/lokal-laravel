@@ -6,7 +6,10 @@ this laravel provider is used for adding your artisan command additional argumen
 |---|---|
 | ![CLI Preview](screenshot1.png)  | ![Browser Preview](screenshot2.png) |
 
-## Installing Package
+## Installation
+
+1. Lokal Application (free) are required in order to use this, [Download here](https://lokal.so/download)
+2. Add composer package to your Laravel project.
 
 ```sh
 composer require lokal-so/lokal-laravel
