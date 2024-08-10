@@ -1,0 +1,34 @@
+{
+    "name": "lokal-so/lokal-laravel",
+    "description": "Custom Artisan serve command with additional network options",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "tunnel",
+        "tunneling",
+        "networking"
+    ],
+    "authors": [
+        {
+            "name": "RUBI JIHANTORO",
+            "email": "jihantoro8@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "laravel/framework": "^11.20",
+        "lokal-so/lokal-php": "^0.0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "LokalSo\\ServeLokal\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LokalSo\\ServeLokal\\ServeLokalServiceProvider"
+            ]
+        }
+    }
+}
