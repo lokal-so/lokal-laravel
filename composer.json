@@ -17,7 +17,7 @@
     "require": {
         "php": ">=7.4",
         "laravel/framework": "^11.20",
-        "lokal-so/lokal-php": "^0.0.2"
+        "lokal-so/lokal-php": "^0.0.3"
     },
     "autoload": {
         "psr-4": {
